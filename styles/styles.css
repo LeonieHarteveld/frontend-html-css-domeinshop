@@ -1,3 +1,5 @@
+/*grijs #899CA0 en donkergroen #1C2B32*/
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -13,16 +15,34 @@ Table of Contents:
 
 
 /*////////////////////////
-    1. Global Styles
-////////////////////////*/
+    1. Global Styles */
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
 
+/**!///////////////////////!*/
 
 /*////////////////////////
-    2. Typography
-////////////////////////*/
+/*    2. Typography*/
+/*///////////////////////!*/
 
 
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1C2B32;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
 
 /*////////////////////////
     3. Areas
@@ -32,8 +52,39 @@ Table of Contents:
 
 /*///////////// 3.1 Header /////////////*/
 
+header {
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+}
 
+.header-section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 0 250px 0;
 
+}
+
+.header-section p {
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+.header-section button {
+    border-radius: 0 20px 20px 0;
+    background-color: #1C2B32;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid 2px #1C2B32;
+
+}
+
+.header-section input {
+    border-radius: 20px 0 0 20px;
+    padding: 10px 20px;
+    margin-right: -5px;
+    background-color: transparent;
+    border: solid 2px #1C2B32;
+}
 /*///////////// 3.2 Testimonial /////////////*/
 
 
