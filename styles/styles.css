@@ -14,8 +14,7 @@ Table of Contents:
 
 
 
-/*////////////////////////
-    1. Global Styles */
+/*//////////////////////// 1. Global Styles ////////////////////////////*/
 
 * {
     padding: 0;
@@ -23,12 +22,8 @@ Table of Contents:
     box-sizing: border-box
 }
 
-/**!///////////////////////!*/
 
-/*////////////////////////
-/*    2. Typography*/
-/*///////////////////////!*/
-
+/*//////////////////////// 2. Typography ////////////////////////////*/
 
 body {
     font-family: "Poppins", sans-serif;
@@ -39,14 +34,15 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 900;
-    padding-bottom: 20px;
+
 }
 
-/*////////////////////////
-    3. Areas
-////////////////////////*/
+p {
+    font-size: 15px;
+}
+/*//////////////////////// 3. Areas ////////////////////////*/
 
 
 
@@ -55,6 +51,8 @@ h1 {
 header {
     background-image: url("../assets/images/mountains.jpg");
     background-size: cover;
+    background-position: 60% 40%;
+
 }
 
 .header-section {
@@ -65,26 +63,33 @@ header {
 }
 
 .header-section p {
-    padding-bottom: 20px;
-    font-size: 15px;
+    padding-bottom: 30px;
+
 }
 
 .header-section button {
     border-radius: 0 20px 20px 0;
     background-color: #1C2B32;
     color: #fff;
-    padding: 10px 20px;
+    padding: 15px 30px;
     border: solid 2px #1C2B32;
 
 }
 
 .header-section input {
     border-radius: 20px 0 0 20px;
-    padding: 10px 20px;
+    padding: 15px 40px 15px 15px;
     margin-right: -5px;
     background-color: transparent;
     border: solid 2px #1C2B32;
 }
+
+.header-section input::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: #1C2B32;
+}
+
 /*///////////// 3.2 Testimonial /////////////*/
 
 
